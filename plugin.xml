@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="com.appgyver.plugin.Echo"
+    version="1.0.0">
+
+    <name>EventLoggingPlugin</name>
+
+  <description>
+    Event logging Plugin for external applications
+  </description>
+
+  <asset src="www/EventLoggingPlugin.js" target="plugins/EventLoggingPlugin.js" />
+
+  <engines>
+    <engine name="cordova" version=">=2.7.0" />
+  </engines>
+
+  <!-- android -->
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="plugins">
+      <plugin name="EventLogging" value="com.tanjarine.eventlogging.plugin.EventLogging"/>
+    </config-file>
+
+    <source-file src="src/android/com/tanjarine/eventlogging/plugin/EventLogging.java"
+      target-dir="src/com/tanjarine/eventlogging/plugin" />
+  </platform>
+
+</plugin>
