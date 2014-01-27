@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    id="com.appgyver.plugin.Echo"
+    id="com.asakalou.eventlogging.plugin.EventLogging"
     version="1.0.0">
 
     <name>EventLoggingPlugin</name>
@@ -8,6 +8,8 @@
   <description>
     Event logging Plugin for external applications
   </description>
+
+    <license>MIT</license>
 
   <asset src="www/EventLoggingPlugin.js" target="plugins/EventLoggingPlugin.js" />
 
