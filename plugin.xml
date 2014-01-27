@@ -18,11 +18,11 @@
   <!-- android -->
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="plugins">
-      <plugin name="EventLogging" value="com.tanjarine.eventlogging.plugin.EventLogging"/>
+      <plugin name="EventLogging" value="com.asakalou.eventlogging.plugin.EventLogging"/>
     </config-file>
 
-    <source-file src="src/android/com/tanjarine/eventlogging/plugin/EventLogging.java"
-      target-dir="src/com/tanjarine/eventlogging/plugin" />
+    <source-file src="src/android/com/asakalou/eventlogging/plugin/EventLogging.java"
+      target-dir="src/com/asakalou/eventlogging/plugin" />
   </platform>
 
 </plugin>
